@@ -1,0 +1,35 @@
+.banner {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, .1)), url('../resources/Banner\ Image.png') no-repeat;
+    width: 1320px;
+    height: 600px;
+    flex-shrink: 0;
+    background-position: center;
+    background-size: cover;
+    margin-top: 50px;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner-text {
+    width: 830px;
+    text-align: center;
+}
+.banner-text h4 {
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    }
+.banner-text h1 {
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 95px;
+}
